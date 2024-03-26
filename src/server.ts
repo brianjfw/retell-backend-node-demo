@@ -14,6 +14,7 @@ import { LLMDummyMock } from "./llm_dummy_mock";
 import { FunctionCallingLlmClient } from "./llm_azure_openai_func_call";
 import { RetellRequest } from "./types";
 // import { DemoLlmClient } from "./llm_openrouter";
+import { HuggingFaceLlmClient } from "./huggingface_llm_client";
 
 export class Server {
   private httpServer: HTTPServer;
